@@ -1,22 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #5271ff, #8e54e9);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 18px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h2 {
+            color: #5271ff;
+        }
+        .emoji {
+            font-size: 45px;
+        }
+        footer {
+            background-color: #252b42;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
-
 <body>
-
-    <h1>Welcome to My Website</h1>
-
-    <p>Hello! Welcome to my first website.</p>
-
-    <h2>About Me</h2>
-    <p>I am a student .</p>
-
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYY4N1mCwIbmJsCMlPZnsoN0d5S15RrPimT4Kh-PeZiA&s=10" alt="alternatetext">
-     
-    
-    <a href=">timetable.html">View My Timetable</a>
-
+    <header>
+        <h1>About Me</h1>
+        <p>Welcome to my personal website!</p>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>👋 Introduction</h2>
+            <p>
+                Hello! My name is Mijing.
+                Welcome to my personal website.
+                Here, I will introduce my interests,
+                favorite sport, and favorite food.
+            </p>
+        </div>
+        <div class="card">
+            <h2>🎵 My Interests</h2>
+            <div class="emoji">🎧</div>
+            <p>
+                One of my favorite hobbies is listening to music.
+                I enjoy listening to different kinds of music
+                because it helps me relax and feel happy.
+            </p>
+        </div>
+        <div class="card">
+            <h2>🏸 My Favorite Sport</h2>
+            <div class="emoji">🏸</div>
+            <p>
+                My favorite sport is badminton.
+                I enjoy playing badminton because it is fun,
+                exciting, and a great way to stay active.
+            </p>
+        </div>
+        <div class="card">
+            <h2>🍝 My Favorite Food</h2>
+            <div class="emoji">🍝</div>
+            <p>
+                My favorite food is pasta.
+                I like pasta because it is delicious
+                and comes in many different flavors.
+            </p>
+        </div>
+    </div>
+    <a href=">timetable.html">go to my Weekly timetable</a>
 </body>
 </html>

@@ -1,45 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Timetable</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f4f9;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            text-align: center;
+            color: #263b5e;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th {
+            background-color: #344b70;
+            color: white;
+            padding: 18px 10px;
+        }
+
+        td {
+            border: 1px solid #dce2eb;
+            padding: 22px 10px;
+            color: #344054;
+        }
+
+        td:first-child {
+            background-color: #e8edf5;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) td:not(:first-child) {
+            background-color: #f7f9fc;
+        }
+
+        .footer {
+            text-align: center;
+            color: #999;
+            margin-top: 25px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                overflow-x: auto;
+                padding: 15px;
+            }
+
+            table {
+                min-width: 650px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>My S1 Timetable</h1>
+    <div class="container">
 
-    <table border="1">
+        <h1>My Weekly Timetable</h1>
 
-        <tr>
-            <th>Period</th>
-            <th>Subject</th>
-        </tr>
+        <table>
+            <tr>
+                <th>Period</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
 
-        <tr>
-            <td>Period 1</td>
-            <td>TEJ201-1a</td>
-        </tr>
+            <tr>
+                <td>Period 1</td>
+                <td>English</td>
+                <td>TEJ</td>
+                <td>english</td>
+                <td>TEJ</td>
+               <td>english</td>
+            
+            </tr>
 
-        <tr>
-            <td>Period 2</td>
-            <td>ESLE08-1b</td>
-        </tr>
+            <tr>
+                <td>Period 2</td>
+                <td>TEJ</td>
+                <td>english</td>
+                <td>TEJ</td>
+                <td>english</td>
+                <td>TEJ</td>
+                
+            </tr>
 
-        <tr>
-            <td>Period 3</td>
-            <td>GlC208-3c</td>
-        </tr>
+            <tr>
+                <td>Period 3</td>
+                <td>career</td>
+                <td>math</td>
+                <td>career</td>
+                <td>math</td>
+                <td>career</td>
+                
+             
+            </tr>
 
-        <tr>
-            <td>period 4</td>
-            <td>MPM2D1-1d</td>
-        </tr>
+            <tr>
+                <td>Period 4</td>
+                <td>math</td>
+                <td>career</td>
+                <td>math</td>
+                <td>career</td>
+                <td>math</td>
+            </tr>
+        </table>
 
-    </table>
+        <a href="<:>index.html">back about me </a>
 
-    <br>
+        
+        
 
-    <a href="<:>index.html">Back to Home</a>
+    </div>
 
 </body>
 </html>
